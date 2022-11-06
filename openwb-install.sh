@@ -2,8 +2,8 @@
 
 echo "install required packages..."
 apt-get update
-apt-get -q -y install vim bc apache2 php php-gd php-curl php-xml php-json libapache2-mod-php jq raspberrypi-kernel-headers i2c-tools git socat python-pip python3-pip sshpass
-apt-get -q -y install libcjson1 libdlt2 libev4 libmosquitto1 libwebsockets16 mosquitto mosquitto-clients
+apt-get install vim bc apache2 php php-gd php-curl php-xml php-json libapache2-mod-php jq raspberrypi-kernel-headers i2c-tools git socat python-pip python3-pip sshpass
+apt-get install libcjson1 libdlt2 libev4 libmosquitto1 libwebsockets16 mosquitto mosquitto-clients
 echo "...done"
 
 echo "check for timezone"
